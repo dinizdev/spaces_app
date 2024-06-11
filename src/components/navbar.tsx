@@ -5,12 +5,12 @@ export default function Navbar() {
     <nav className="flex justify-around p-5">
       <ul className="flex gap-96">
         <li className="uppercase font-mono text-xl">
-          <Link href="/newsletter" className="text-zinc-500">
+          <Link href="/newsletter" className="text-zinc-300">
             join the newsletter
           </Link>
         </li>
         <li className="uppercase font-mono text-xl">
-          <Link href="/changelog" className="text-zinc-200">
+          <Link href="/changelog" className="text-slate-100">
             changelog
           </Link>
         </li>
